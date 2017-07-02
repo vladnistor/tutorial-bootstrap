@@ -1,0 +1,12 @@
+{
+  "description": "This is a Bootstrap starter project",
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-sass": "^3.3.7",
+    "node-sass-chokidar": "0.0.3"
+  }
+}
